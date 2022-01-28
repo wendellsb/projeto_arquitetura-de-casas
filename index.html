@@ -5,10 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h2>Sobre Nós</h2>
-    <img src="img/empresa.jpg" alt="imagem da empresa">
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        <img src="img/empresa.jpg" class="img-responsive" alt="Imagem responsiva">
+
+        <h2 data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h2>
+        <p id="primeiro-paragrafo" class="collapse in">A Brothers Arquitetura esta no mescado desde...</p>
+
+        <h2 data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h2>
+        <p id="segundo-paragrafo" class="collapse">A Brothers Arquitetura esta no mescado desde...</p>
+
+        <h2 data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h2>
+        <p id="terceiro-paragrafo" class="collapse">A Brothers Arquitetura esta no mescado desde...</p>
+    </div>
 </body>
 </html>
