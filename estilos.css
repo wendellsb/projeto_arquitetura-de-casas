@@ -1,8 +1,31 @@
-#imagem-sobre {
+.imagem-sobre {
     margin-bottom: 20px;
+}
+
+.titulos-h2 {
+    font-weight: 600;
+    color: black;
 }
 
 .card-estilos {
     width: 100%;
-    
+}
+
+.banner-separador {
+    background-color: rgba(128, 128, 128, 0.116);
+    padding: 20px 0px 20px 0px;
+    border-style: hidden;
+}
+
+.banner-separador h3 {
+    font-weight: 700;
+}
+
+.nossos-projetos {
+    margin-top: 20px;
+}
+
+.casa-castelo h3 {
+    font-weight: 600;
+    margin-top: 20px;
 }
