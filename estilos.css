@@ -32,3 +32,10 @@
     font-weight: 600;
     margin-top: 20px;
 }
+
+.depoimentos {
+    background-color: rgb(155, 196, 196);
+    padding: 10px 0 10px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
