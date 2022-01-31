@@ -34,8 +34,21 @@
 }
 
 .depoimentos {
-    background-color: rgb(155, 196, 196);
+    background-color: rgb(184, 204, 204);
     padding: 10px 0 10px 0;
     margin-bottom: 0;
     text-align: center;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+}
+
+.texto {
+    color: #FFF;
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 0.3px;
+}
+
+.sessao-depoimentos {
+    margin-bottom: 20px;
 }
