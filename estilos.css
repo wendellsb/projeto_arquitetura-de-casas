@@ -25,7 +25,10 @@
     margin-top: 20px;
 }
 
-.casa-castelo h3 {
+.casa {
+    margin-bottom: 20px;
+}
+.casa h3 {
     font-weight: 600;
     margin-top: 20px;
 }
