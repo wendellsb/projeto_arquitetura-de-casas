@@ -55,6 +55,10 @@
 
 .formulario {
     margin-top: 20px;
-    
 }
 
+.grupo-radio, .contato-select{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}

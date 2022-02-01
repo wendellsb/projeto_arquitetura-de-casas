@@ -136,19 +136,53 @@
         </h3>
         <p>Entre em contato conosco</p>
         <form>
-                <div class="form-group mb-3">
-                    <label for="contato-nome">Nome:</label>
-                    <input type="text" class="form-control" id="contato-nome" placeholder="Seu nome">
-                </div>
+            <div class="form-group mb-3">
+                <label for="contato-nome">Nome:</label>
+                <input type="text" class="form-control" id="contato-nome" placeholder="Seu nome">
+            </div>
 
-                <div class="form-group mb-3">
-                    <label for="contato-email">E-mail:</label>
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="email" class="form-control" id="contato-email" placeholder="Seu e-mail"></p>
+            <div class="form-group mb-3">
+                <label for="contato-email">E-mail:</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="email" class="form-control" id="contato-email" placeholder="Seu e-mail"></p>
                     </div>         
+            </div>
+            <div class="grupo-radio">
+                <div class="radio">
+                    <input class="form-check-input" type="radio" name="pessoa" id="fisica" checked>
+                    <label class="form-check-label" for="fisica">
+                        Pessoa Física
+                    </label>
                 </div>
+                <div class="radio">
+                    <input class="form-check-input" type="radio" name="pessoa" id="juridica">
+                    <label class="form-check-label" for="juridica">
+                        Pessoa Jurídica
+                    </label>
+                </div>
+            </div><!-- 
+
+             --><select class="contato-select form-select">
+                <option disabled selected>Tipo de Situação</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+                <option>Mansão</option>
+            </select>
+            <div>
+                <div class="mt-2">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </div>      
         </form>
     </section>
+
+    <address>
+        W & J Arquitetura<br>
+        Rua José, 130, Sapê<br>
+        Niterói, Rj<br>
+        Tel: (11) 5571-2751 ou 5083-3884<br>
+        E-mail: w&j_arquitetura@gmail.com
+    </address>
 </body>
 </html>
