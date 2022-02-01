@@ -136,13 +136,18 @@
         </h3>
         <p>Entre em contato conosco</p>
         <form>
-            <label for="contato-nome">Nome:</label>
-            <p><input type="text" class="form-control" id="contato-nome" placeholder="Seu nome"></p>
+                <div class="form-group mb-3">
+                    <label for="contato-nome">Nome:</label>
+                    <input type="text" class="form-control" id="contato-nome" placeholder="Seu nome">
+                </div>
 
-            <label for="contato-email">E-mail:</label>
-            <p><input type="email" class="form-control" id="contato-email" placeholder="Seu e-mail"></p>
-
-
+                <div class="form-group mb-3">
+                    <label for="contato-email">E-mail:</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="email" class="form-control" id="contato-email" placeholder="Seu e-mail"></p>
+                    </div>         
+                </div>
         </form>
     </section>
 </body>
